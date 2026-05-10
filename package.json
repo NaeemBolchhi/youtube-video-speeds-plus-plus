@@ -1,0 +1,19 @@
+{
+  "name": "youtube-video-speeds-plus-plus",
+  "private": true,
+  "version": "0.0.6",
+  "type": "module",
+  "scripts": {
+    "dev:c": "wxt",
+    "dev:f": "wxt -b firefox",
+    "build:c": "wxt build",
+    "build:f": "wxt build -b firefox",
+    "zip:c": "wxt zip",
+    "zip:f": "wxt zip -b firefox",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "wxt": "^0.20.5"
+  }
+}
