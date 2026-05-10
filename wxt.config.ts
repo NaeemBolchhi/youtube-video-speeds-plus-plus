@@ -12,6 +12,10 @@ export default defineConfig({
         matches: ["*://*/*"],
       },
     ],
+    data_collection_permissions: {
+      is_storing_data: false,
+      is_collecting_personally_identifiable_information: false,
+    },
   },
   webExt: {
     startUrls: ["https://www.youtube.com"],
