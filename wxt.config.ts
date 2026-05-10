@@ -12,9 +12,13 @@ export default defineConfig({
         matches: ["*://*/*"],
       },
     ],
-    data_collection_permissions: {
-      is_storing_data: false,
-      is_collecting_personally_identifiable_information: false,
+    browser_specific_settings: {
+      gecko: {
+        "id": "@youtube-video-speeds-plus-plus",
+        "data_collection_permissions": {
+          "required": ["none"]
+        }
+      }
     },
   },
   webExt: {
