@@ -2,4 +2,3 @@
 .output/
 .wxt/
 node_modules/
-package-lock.json
