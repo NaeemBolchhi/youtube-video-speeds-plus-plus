@@ -7,8 +7,7 @@ export default defineUnlistedScript(() => {
         [1.25, 1.5, 1.75, 2],
         [2.25, 2.5, 2.75, 3],
         [3.25, 3.5, 3.75, 4],
-        [5, 6, 7, 8],
-        [10, 12, 14, 16]
+        [8, 10, 14, 16]
     ];
 
     // Create speed control
@@ -267,6 +266,10 @@ export default defineUnlistedScript(() => {
 
         if (newSpeed < 0.05) {
             newSpeed = 0.05;
+        }
+
+        if (newSpeed > 16) {
+            newSpeed = 16;
         }
 
         setSpeedValue(newSpeed.toString());
