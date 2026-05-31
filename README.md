@@ -1,10 +1,12 @@
 # YouTube Video Speeds++
 Enhance your YouTube viewing experience with a sleek, native-feeling expanded playback speed controller integrated directly into the player bar. This script replaces the default speed menu with a fast, modern interface.
 
+<img style="width: 50%" src="./screenshots/yvs-1.png"><img style="width: 50%" src="./screenshots/yvs-2.png">
+
 ## ✨ Key Features
 - Adds a dedicated speed button to the bottom player controls with a modern, transparent aesthetic.
-- Presets available to switch between speeds from 0.25x up to 4.0x.
-- GUI and Keyboard support for increments and decrements at a rate of 0.05x. No maximum limit.
+- Presets available to switch between speeds from 0.25x up to 16.0x.
+- GUI and Keyboard support for increments and decrements at a rate of 0.05x.
 - Original playback speed menu is hidden.
 
 ## ⌨️ Keyboard Shortcuts
